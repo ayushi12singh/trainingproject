@@ -1,0 +1,138 @@
+
+      .box6{background:#000;position:relative}
+      .box6:after{background:rgba(0,0,0,.7);position:absolute;top:0;left:-30%;bottom:0;right:70%;transform:skew(20deg) translateX(-75%)}
+      .box6:hover:after{transform:skew(20deg) translateX(0)}
+      .box6 img{width:100%;height:auto}
+      .box6:hover img{opacity:.5}
+      .box6 .box-content{padding:20px;text-align:right;position:absolute;top:0;right:0;z-index:1}
+      .box6 .icon,.box7 .icon{padding:0;list-style:none}
+      .box10 .icon li a,.box11,.box12,.box13,.box14,.box6 .icon li a,.box7,.box7 .icon li a,.box8,.box8 .icon li a{text-align:center}
+      .box6 .title{font-size:20px;font-weight:900;color:#fff;margin:0 0 10px;transform:scale(0)}
+      .box6:hover .title{transform:scale(1)}
+      .box6 .icon li,.box6 .post{opacity:0;transform:translateX(40px);transition:all .35s ease 0s}
+      .box6 .post{display:block;font-size:14px;color:#fff;margin-bottom:5px}
+      .box6 .icon{display:inline-block;margin:0}
+      .box6:hover .icon li,.box6:hover .post{opacity:1;transform:translateX(0)}
+      .box6:hover .icon li:first-child{transition-delay:.1s}
+      .box6:hover .icon li:nth-child(2){transition-delay:.2s}
+      .box6 .icon li a{display:block;width:35px;height:35px;line-height:35px;background:#fff;font-size:18px;color:#605f5f;margin-bottom:5px;transition:all .35s ease}
+      .box6 .icon li a:hover{background:#605f5f;color:#fff}
+      @media only screen and (max-width:990px){.box6{margin-bottom:30px}
+      }
+      .heading h1{
+            text-align: center;
+            color: rgb(7, 82, 163);
+      }
+      .heading{
+            text-align: center;
+            color: rgb(205, 15, 103);
+            font-size: 80px;
+            padding: 50px;
+            margin: 200px;
+            margin-top: 50px;
+      }
+      .heading p{
+            text-align: center;
+            color: rgb(4, 32, 61);
+            font-size: medium;
+            margin: 50px;
+      }
+      .big img{
+            width: 100%;
+            height: 500px;
+      }
+      .detail{
+            text-align: center;
+            margin: 100px 50px;
+      }
+      .conc{
+            text-align: center;
+            margin: 100px 50px;
+      }
+      .terms h5{
+            text-align: left;
+      }
+      .terms{
+            margin-bottom: 100px;
+      }
+      
+.item{
+      align-items: center;
+  }
+  .card-body{
+      height: 700px;
+  }
+
+.product {
+      padding: 10px;
+      background-color: #fff;
+      position: relative;
+      margin-bottom: 50px;
+  }
+  
+  .about h4 {
+      margin-bottom: -3px;
+  }
+  
+  .about h3 {
+      color: #e3ce57;
+  }
+  
+  .about span {
+      font-size: 13px
+  }
+  
+  .dot {
+      height: 40px;
+      width: 40px;
+      background-color: #e3ce57;
+      border-radius: 50%;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      cursor: pointer;
+      right: 10%;
+      z-index: 10;
+      bottom: -5%
+  }
+  
+  .inner-dot {
+      height: 30px;
+      width: 30px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: inline-block;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      cursor: pointer
+  }
+  
+  .txt{
+     text-align: center;
+     color: #17282F;
+  }
+.submission{
+      margin: 100px 300px;
+      padding: 20px;
+      background: #17282F;
+      color:  #84D1EF;
+  }
+  .submission input{
+      height: 50px;
+      width: 500px;
+      background: #17282F;
+      color: grey;
+      border-bottom:solid 2px #84D1EF;
+      border-radius: 4px;
+  }
+  .submission input:focus{
+      outline: white;
+  }
+  .submission input[type=submit]{
+      color: white;
+      background: #84D1EF;
+  }
